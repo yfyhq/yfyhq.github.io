@@ -3,11 +3,8 @@
    <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width , initial-scale=1">
-  <!-- 
-   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
-  -->
 
-  <title>Welcome to myCTApp</title>
+  <title>UI设计之鼠标模型的分析和控制</title>
  
 <style>
   *{
@@ -63,6 +60,7 @@
     left:7% ;
     top: 7% ;
   }
+  
 </style>
 </head> 
 <body >
@@ -92,7 +90,7 @@
   </footer> 
   <div id="aid">
     <p>用户键盘响应区</p>
-
+    <p id="keyboard"></p>
   </div>
  <script>
   var UI = {};
