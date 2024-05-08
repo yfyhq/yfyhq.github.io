@@ -26,11 +26,6 @@
     position: relative;
   }
 
-  #box{
-    position: absolute;
-    right: 0;
-    width: 100px;
-  }
 
   footer{
     border: 3px solid green;
@@ -220,7 +215,7 @@ var Pointer = {};
 	 if (k.length > 1){ //学生须研究这个逻辑的作用
 		 return false ;
 	 }
-	 let puncs = ['~','`','!','@','#','$','%','^','&','*','(',')','-','_','+','=',',','.','<','>','?','/',' '] ;
+	 let puncs = ['~','`','!','@','#','$','%','^','&','*','(',')','-','_','+','=',',','.',';',';','<','>','?','/',' ','\'','\"'] ;
      if ( (k >= 'a' && k <= 'z')|| (k >= 'A' && k <= 'Z')|| (k >= '0' && k <= '9'))  {
 		 console.log("letters") ;
 		 return true ;
