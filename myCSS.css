@@ -17,7 +17,7 @@ main>img#bookFace{
 
 header{
  height: 15% ;
- background: rgb(250,100,0);
+ background: red;
  color: rgb(250,250,0);
 }
 nav {
@@ -25,7 +25,7 @@ nav {
 }
 footer{
  height: 10% ;
- background: rgb(30,20,10);
+ background: blue;
  color: white;
 }
 main{
